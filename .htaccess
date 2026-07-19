@@ -1,0 +1,7 @@
+# Hostinger: when subdomain Document Root = /public_html/apteka (NOT /public)
+# Prefer setting Document Root to /public_html/apteka/public in hPanel.
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

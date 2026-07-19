@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "buildCommand": "echo 'Laravel+MySQL cannot run on Vercel. Production is Hostinger (apteka.inovaauto.com). Use GitHub Actions workflow deploy-hostinger.yml.' && exit 1",
+  "installCommand": "echo skip",
+  "framework": null,
+  "outputDirectory": "public"
+}
